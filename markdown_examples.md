@@ -30,10 +30,15 @@
 [Baidu](http://www.baidu.com)  
 ![Mou icon](http://mouapp.com/Mou_128.png)
 
+## 给图片加上链接
+[![baidu]](http://baidu.com)
+[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo"
+
+
 **这是粗体**  
 *这是斜体*
 
-## 表格
+## 表格 Github貌似无法解析
 Col1|Col2|Col3
 :-:|-:|:-
 居中|靠右对齐|靠左对齐
@@ -49,9 +54,9 @@ Col1|Col2|Col3
 单行代码框
 无法折行
 `
-```
-可以折行的
-代码框
+```Java
+//可以折行的
+//代码框
 public static void main() {
 	System.out........
 }
